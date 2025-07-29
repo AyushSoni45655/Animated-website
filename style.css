@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--black-clr);
+  color: var(--secondry-clr);
+  
+}
+:root{
+  --black-light:rgb(55, 51, 51);
+  --white-light:hsl(0, 10%, 86%);
+  --font-roboto:"Roboto", sans-serif;
+  --font-anton: "Anton", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+   --font-inter: "Inter", sans-serif;
+   --font-concert: "Concert One", sans-serif;
+    --font-squadaOne: "Squada One", sans-serif;
+     --font-jockeyOne: "Jockey One", sans-serif;
+       --font-dmsans: "DM Sans", sans-serif;
+    --font-libraFrekalin: "Libre Franklin", sans-serif;
+  --white_clr: #fff;
+  --black-clr : #000;
+  --light-black:#333;
+  --primry-clr : #e6303d;
+  --secondry-clr : #eee;
+  --tag-clr: #7cc576;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.sections{
+  /* position: relative; */
+  width: 96%;
+  margin: auto;
+  /* background-color: green; */
+}
+header{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(128, 132, 135, 0.15) 0px 1px 3px 1px;
+  position: fixed;
+  /* background-color: purple; */
+  width: 100vw;
+  height: 4.4rem;
+}
+.navbar{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar h3,a{
+  font-family: var(--font-roboto);
+  font-size: 1.8rem;
+}
+
+
+                                               /* main heading section */
+.heading{
+  padding: 10rem;
+
+  /* margin-top: 10rem; */
+}          
+.heading h1{
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  font-size: 8vw;
+}        
+.heading .h1text{
+  margin-left: 17rem;
+} 
+
+.heading .textContent{
+
+  width: fit-content;
+  /* background-color: green; */
+}    
+.heading .textContent h1{
+  margin-bottom: 0px;
+  line-height:10rem;
+}
+.heading .textContent h4{
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  text-align: right;
+}   
+
+.textContent{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+                                             /*  frelance heading styling sections */
+.freelance{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+  /* background-color: green; */
+}
+/* .chotiheading{
+  width: 100%;
+  
+  margin-top: 2rem;
+   background-color: green; 
+  
+} */
+.chotiheading h5{
+  /* text-align: right; */
+  text-transform: uppercase;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size:.8vw;
+}
+
+
+                                                  /* FOOTER ICON TEXT SECTION HERE MAIN PAGE BOTTOM SECTION */
+          
+.mainfootersection{
+  position: relative;
+}
+.footericontext{
+  position: absolute;
+  top: 17rem;
+  /* margin: 2rem; */
+    bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footericontext a{
+  text-transform: uppercase;
+  font-family: var(--font-jockeyOne);
+  font-size: 1.5rem;
+  word-spacing: .3rem;
+}
+.footericontext a i{
+  font-size: 2.5rem;
+  margin-left: .4rem;
+ 
+}
+.footericontext .seticon{
+  display: flex;
+
+}
+.footericontext .seticon .circle{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: var(--light-black);
+  margin: .7rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  width: 2.2rem;
+  background-color: var(--secondry-clr);
+}
+.footericontext .seticon .circle i{
+font-size: 1.6rem;
+font-weight: 900;
+}
+
+
+
+                                                                        /*  Images Animation boxes section here  */
+                                                                      
+.animationBox{
+  padding-top: 30rem;
+  width: 100%;
+  /* background-color: green; */
+}
+.animationBox .animationBoxChild{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-right: 0px; */
+  padding: 4rem 3rem;
+  border-top: 1px solid #fff;
+}
+.animationBox .animationBoxChild h1{
+  text-transform: uppercase;
+  font-size: 8rem;
+  font-weight: 500;
+  font-family: var(--font-libraFrekalin);
+  letter-spacing: .5rem;
+}
+.animationBox .animationBoxChild h5{
+  padding-right: 0px;
+  font-size: 1.4rem;
+}
+.animationBox .bottomBorder{
+  border-bottom: 1px solid #fff;
+}
+.animationBox .animationBoxChild img{
+  z-index: 999;
+  opacity: 0;
+  /* display: none; */
+position: absolute;
+height: 120%;
+}
+
+
+                                                                                 /* ABOUT SECTION HERE */
+                                                              
+.sections .aboutBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  padding-top: 22vh;
+  padding-left:35rem;
+}
+.sections .aboutBox img{
+  height: 20rem;
+}
+.sections .aboutBox .aboutinfo{
+  /* background-color: rebeccapurple; */
+  text-align: start;
+  font-family: var(--font-poppins);
+  width: 48rem;
+  font-size: 1.6rem;
+}
+.sections .aboutBox  .aboutinfo p{
+  margin-bottom: 3rem;
+}
+.sections .aboutBox  .aboutinfo h5{
+  margin-bottom: 1rem;
+  opacity: 0.7;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.sections .aboutBox  .aboutinfo a{
+  font-family: var(--font-roboto);
+  text-transform: capitalize;
+  margin-top: 3rem;
+ border: .2rem solid var(--white_clr);
+ padding: .6rem 3rem;
+ border-radius: 2rem;
+}
+
+
+                                                                /* SUBSCRIBE SECTION HERE  */
+      
+.sections .subscribeBox{
+  padding:  0rem 2rem;
+  padding-top: 20rem;
+}
+.sections .subscribeBox h3{
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: var(--font-inter);
+  text-transform: uppercase;
+  margin-bottom: .6rem;
+}
+.sections .subscribeBox a{
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+}
+.sections .subscribeBox a i{
+  font-size: 2.4rem;
+  padding-left: 1rem;
+}
+
+                                                                 /* FINALLY FOOTER SECTION HERE */
+
+.sections .footerBox{
+  padding-top: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 3rem;
+  /* background-color: aqua; */
+}
+.sections .footerBox .left{
+
+  width: 20%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 3rem;
+  /* background-color: green; */
+}
+.sections .footerBox .left h3,h4{
+  text-transform: uppercase;
+  color: var(--white-light);
+  font-weight: 600;
+  font-size: 1.8rem;
+  font-family: var(--font-roboto);
+}
+.sections .footerBox .right a{
+  margin-right: 3.5rem;
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+}
+
+
+/* CUSTOM CURSOR HERE */
+/* 
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgb(185, 227, 34);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.05s ease;
+} */
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid black;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+/* Hero section animation */
+
+.bounding{
+  overflow:  hidden;
+  width: fit-content;
+  /* background-color: red; */
+}
+.bounding .boundingele{
+transform: translateY(100%);
+}
