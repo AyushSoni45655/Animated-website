@@ -25,7 +25,7 @@ A fully animated and modern website built using **HTML**, **CSS**, **JavaScript*
 
 ## 🌐 Live Website
 
-🔗 [View Live Site](https://your-username.github.io/your-repo-name/)  
+🔗 [View Live Site](https://ayushsoni45655.github.io/Animated-website/)  
 > *(Replace this link with your actual deployed website URL)*
 
 ---
