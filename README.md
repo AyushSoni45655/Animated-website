@@ -4,6 +4,13 @@ A fully animated and modern website built using **HTML**, **CSS**, **JavaScript*
 
 ---
 
+
+|| SCREEN SHOTS ||
+|| HOME SECTION ||
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY_wZ6EIXLSOeHPhynYVqk_o8HpAK8pLdyjBUF1A0de5nZiN1Wi5RmatIQm062V8gHBOVDt_IDBCZ_r1PF9gBZQ7QxBl4N7QJaLtfwNf10tutnYs1aDROyHoDnhrbAKkk-fRRv6U5CdTNrdxa9dPPMFF4L-MOJWjVq5GSukRftEjKRdI2GIbUi6oPZL0Mq/s1905/Screenshot%202025-07-29%20153309.png"><br/><br/>
+|| HOME SECTION ||
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCyQMtzF_phxKFbVqE6OeFaIHmwFqHEPyw98CZgAXi9x_gVPSdsGenZfQhDYqHfoEZrmJQi0YaFLX8abhE7VegSfc1p-csCkaAKTg4BTmMLV-HQoo6ETOubYJIQ_MZePyPif7szLLvUbdsGfmmvdZkhn1TSqKGYrcRr2-3jldkX4DWW1bgkMXMH2z11JAs/s1877/Screenshot%202025-07-29%20153335.png">
 ## 🚀 Features
 
 - 🎨 Clean and modern UI
